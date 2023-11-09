@@ -5,9 +5,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.5</version>
-		<relativePath/>
-		<!-- lookup parent from repository -->
+		<version>2.7.17</version>
+		<relativePath/><!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.edvinmichovic</groupId>
 	<artifactId>user-service</artifactId>
@@ -90,6 +89,13 @@
 					<artifactId>hamcrest-core</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<!-- Auth token dependency -->
+		<!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>3.18.1</version>
 		</dependency>
 	</dependencies>
 
